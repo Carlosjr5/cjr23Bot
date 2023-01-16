@@ -4,11 +4,10 @@ import openai
 #pip3 install gradio
 import gradio as gr
 
-from data import OPENAI_API_KEY
-#if you have OpenAI API key as an environment variable, enable the below
-#openai.api_key = os.getenv("OPENAI_API_KEY")
+from cjr23Bot.data import OPENAI_API_KEY
 
-#if you have OpenAI API key as a string, enable the below
+
+
 OPEN_AI_KEY = OPENAI_API_KEY
 
 openai.api_key = OPEN_AI_KEY
